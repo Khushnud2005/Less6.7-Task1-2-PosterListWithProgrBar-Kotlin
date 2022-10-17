@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.EditActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_userIdEdit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="User Id"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/et_titleEdit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:hint="Title Post"/>
+        <EditText
+            android:id="@+id/et_textEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:hint="Post"/>
+        <Button
+            android:id="@+id/btn_submitEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Post"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
